@@ -1,0 +1,20 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "shabluli_webhook_plugin",
+  "name_for_human": "שבלולי שליחת מועמדים",
+  "description_for_model": "שלח נתוני מועמד (שם, טלפון, סטטוס, שיחה) ל-Webhook של Make",
+  "description_for_human": "פלאגין ששולח מידע על מועמדים להדרכה ישירות למערכת שבלולי דרך Make",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://<USERNAME>.github.io/shabluli-plugin/openapi.yaml",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://i.imgur.com/dN8tOPf.png",
+  "contact_email": "you@example.com",
+  "legal_info_url": "https://www.example.com/legal"
+}
+
+
