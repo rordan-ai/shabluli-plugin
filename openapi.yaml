@@ -1,0 +1,30 @@
+openapi: 3.0.1
+info:
+  title: Shabluli Webhook API
+  description: שולח מועמדים מ-GPT ישירות למערכת Make
+  version: 1.0.0
+paths:
+  /send:
+    post:
+      summary: שליחת נתוני מועמד
+      operationId: sendCandidateWebhook
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                PHONE:
+                  type: string
+                STATUS:
+                  type: string
+                  enum: [relevant, irrelevant]
+                CHATLOG:
+                  type: string
+              required: [PHONE, STATUS, CHATLOG]
+      responses:
+        '200':
+          description: OK
+servers:
+  - url: https://hook.eu2.make.com/hrqxg5gcdiem28uiky2wmmvc4tpklkw2
