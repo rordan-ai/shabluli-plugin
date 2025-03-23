@@ -3,6 +3,8 @@ info:
   title: Shabluli Webhook API
   description: שולח מועמדים מ-GPT ישירות למערכת Make
   version: 1.0.0
+servers:
+  - url: "https://hook.eu2.make.com"
 paths:
   /hrqxg5gcdiem28uiky2wmmvc4tpklkw2:
     post:
@@ -26,7 +28,3 @@ paths:
       responses:
         '200':
           description: OK
-servers:
-  - url: "https://hook.eu2.make.com"
-
-      
