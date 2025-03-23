@@ -9,12 +9,11 @@
   },
   "api": {
     "type": "openapi",
-  "url": "https://rordan-ai.github.io/shabluli-plugin/openapi.yaml"
+    "url": "https://rordan-ai.github.io/shabluli-plugin/openapi.yaml",
     "is_user_authenticated": false
   },
   "logo_url": "https://i.imgur.com/dN8tOPf.png",
   "contact_email": "you@example.com",
   "legal_info_url": "https://www.example.com/legal"
 }
-
 
