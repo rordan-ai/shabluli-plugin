@@ -4,9 +4,9 @@ info:
   description: שולח מועמדים מ-GPT ישירות למערכת Make
   version: 1.0.0
 servers:
-  - url: "https://hook.eu2.make.com"
+  - url: "https://hook.eu2.make.com/hrqxg5gcdiem28uiky2wmmvc4tpklkw2"
 paths:
-  /hrqxg5gcdiem28uiky2wmmvc4tpklkw2:
+  /:
     post:
       summary: שליחת נתוני מועמד
       operationId: sendCandidateWebhook
