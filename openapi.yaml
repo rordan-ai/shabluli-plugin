@@ -27,6 +27,4 @@ paths:
         '200':
           description: OK
 servers:
-  - url: https://hook.eu2.make.com/hrqxg5gcdiem28uiky2wmmvc4tpklkw2
-
-        
+  - url: "https://hook.eu2.make.com"
